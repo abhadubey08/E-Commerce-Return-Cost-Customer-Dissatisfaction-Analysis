@@ -1,185 +1,86 @@
-﻿# E-Commerce-Return-Cost-Customer-Dissatisfaction-Analysis
+﻿# E-Commerce Return Cost & Customer Dissatisfaction Analysis
 
 ## Project Overview
 
-This project focuses on analyzing product return behavior in an e-commerce business to identify the key drivers of return-related costs, customer dissatisfaction, profitability loss, and sustainability impact.
-
-Product returns are one of the most significant hidden expenses in e-commerce, affecting operational efficiency, customer experience, logistics costs, and overall business profitability. The objective of this project is to uncover the root causes of returns, quantify their financial and environmental impact, and provide data-driven recommendations that support cost reduction and customer experience improvement.
+This project analyzes e-commerce return behavior to identify the key factors contributing to product returns, customer dissatisfaction, profitability loss, and sustainability impact. The analysis was performed using Python, SQL (PostgreSQL), Excel, and Power BI.
 
 ## Business Problem
 
-The company is experiencing increasing return-related expenses and declining profitability. Management lacks visibility into:
-
-* Factors driving product returns
-* Customer dissatisfaction patterns
-* High-cost customer segments
-* Impact of discount strategies on profitability
-* Operational inefficiencies across shipping methods and locations
-* Environmental impact caused by product returns
-
-This project aims to transform raw operational data into actionable business insights that support strategic decision-making.
-
-## Project Objectives
-
-* Measure the financial impact of product returns
-* Identify key drivers of customer dissatisfaction
-* Analyze profitability risks associated with returns
-* Evaluate the effectiveness of discount strategies
-* Assess shipping and payment-related operational challenges
-* Identify location-based return patterns
-* Quantify sustainability impact through CO₂ emissions and packaging waste
-* Provide business recommendations to reduce return costs and improve customer experience
+Product returns increase operational costs, reduce profitability, and negatively impact customer experience. The objective of this project was to identify return patterns, understand customer dissatisfaction drivers, evaluate financial impact, and generate actionable business insights.
 
 ## Tools & Technologies
 
-### Python
+* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* SQL (PostgreSQL)
+* Microsoft Excel
+* Power BI
+* Git & GitHub
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+## Dataset Information
 
-### SQL
+* Total Orders: 5,000
+* Multiple product categories including Clothing, Electronics, Books, Toys, and Home Appliances
+* Customer demographics, order details, return reasons, discount information, and sustainability metrics
 
-* Data Extraction
-* Business Querying
-* Aggregations
-* CTEs
-* Window Functions
-* KPI Analysis
+## Project Workflow
 
-### Excel
+1. Business Understanding
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. SQL-Based Business Analysis
+5. Dashboard Development in Power BI
+6. Insight Generation & Recommendations
 
-* Data Cleaning
-* Data Validation
-* Pivot Tables
-* Conditional Formatting
-* KPI Tracking
+## Key Insights
 
-### Power BI
+* Overall return rate was 29%.
+* Clothing category generated the highest number of returns and return costs.
+* Defective products were the leading return reason.
+* Higher discount buckets were associated with increased return costs.
+* Clothing category contributed the highest profit loss, packaging waste, and CO₂ emissions.
+* Return behavior varied across customer demographics and locations.
 
-* Data Modeling
-* DAX Measures
-* Interactive Dashboards
-* KPI Monitoring
-* Executive Reporting
+## Dashboard Pages
 
-## Analytical Workflow
+### Executive Overview
 
-### 1. Business Understanding
+* Total Orders
+* Total Returns
+* Return Rate
+* Revenue
+* Profit
+* Return Cost
+* Category-wise return analysis
 
-* Stakeholder analysis
-* Business objective definition
-* KPI framework design
-* Problem scoping
+### Customer Dissatisfaction Analysis
 
-### 2. Data Quality Assessment
+* Return reasons
+* Customer demographics
+* Age-group analysis
+* Gender analysis
+* Location-based return trends
 
-* Missing value analysis
-* Duplicate detection
-* Data consistency checks
-* Data type validation
+### Sustainability & Financial Impact Analysis
 
-### 3. Data Cleaning & Preparation
+* Return cost by discount bucket
+* Profit impact by discount bucket
+* CO₂ emissions by category
+* Packaging waste by category
 
-* Null value treatment
-* Data standardization
-* Outlier detection
-* Data transformation
+## Business Recommendations
 
-### 4. Feature Engineering
+* Improve quality control to reduce defective product returns.
+* Enhance product descriptions and size guidance for clothing products.
+* Monitor high-discount campaigns to minimize return-related losses.
+* Optimize packaging processes to reduce waste and environmental impact.
+* Use return trend monitoring to improve customer satisfaction.
 
-* Customer age segmentation
-* Discount bucket creation
-* Quick-return indicators
-* Net profitability metrics
-* Customer dissatisfaction indicators
+## Project Screenshots
 
-### 5. Exploratory Data Analysis (EDA)
+(Add Power BI Dashboard Screenshots Here)
 
-* Univariate analysis
-* Bivariate analysis
-* Multivariate analysis
-* Return behavior exploration
-* Customer segmentation analysis
+## Author
 
-### 6. Business Analytics
-
-* Return rate analysis
-* Return reason analysis
-* Discount effectiveness analysis
-* Shipping performance evaluation
-* Payment method analysis
-* Geographic return analysis
-* Profitability analysis
-
-### 7. Sustainability Analytics
-
-* CO₂ emission assessment
-* Packaging waste analysis
-* Environmental impact measurement
-* Sustainability KPI tracking
-
-### 8. Dashboard Development
-
-* Executive Summary Dashboard
-* Customer Experience Dashboard
-* Cost Driver Dashboard
-* Geographic Insights Dashboard
-* Sustainability Dashboard
-
-## Key Skills Demonstrated
-
-### Data Analysis
-
-* Exploratory Data Analysis (EDA)
-* Business Analytics
-* Root Cause Analysis
-* Customer Behavior Analysis
-* Cost Optimization Analysis
-* Profitability Analysis
-
-### Data Preparation
-
-* Data Cleaning
-* Data Validation
-* Feature Engineering
-* Data Transformation
-
-### SQL
-
-* Complex Queries
-* Aggregations
-* Joins
-* CTEs
-* Window Functions
-* KPI Calculations
-
-### Power BI
-
-* Data Modeling
-* DAX
-* Interactive Visualizations
-* Dashboard Design
-* KPI Monitoring
-
-### Business Intelligence
-
-* Stakeholder-Oriented Reporting
-* KPI Framework Development
-* Executive Dashboarding
-* Data-Driven Decision Support
-
-## Expected Business Impact
-
-* Identification of major return cost drivers
-* Reduction in operational losses
-* Improved customer satisfaction insights
-* Better discount strategy evaluation
-* Enhanced profitability visibility
-* Improved logistics decision-making
-* Increased sustainability awareness through environmental impact analysis
-
-## Project Outcome
-
-The project delivers a comprehensive analytical framework that enables e-commerce businesses to understand return behavior, reduce return-related costs, improve customer experience, and make more informed operational and strategic decisions.
+Abha Sharma
+Integrated MCA Student
+Aspiring Data Analyst
