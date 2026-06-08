@@ -1,0 +1,1 @@
+This folder contains SQL queries used for business analysis, return rate evaluation, profitability assessment, return cost analysis, and discount impact analysis using PostgreSQL.
